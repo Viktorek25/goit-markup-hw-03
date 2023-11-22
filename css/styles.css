@@ -56,6 +56,7 @@ body {
 
 .page-navigation {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -92,6 +93,7 @@ body {
 
 .listing_header {
   display: flex;
+  gap: 40px;
 }
 
 .menu-item {
@@ -123,7 +125,7 @@ body {
 
 .contacts {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .link-contacts {
@@ -174,6 +176,7 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   margin-bottom: 48p;
+  border: none;
 }
 
 .my-button:hover,
