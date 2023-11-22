@@ -7,14 +7,19 @@ h2,
 h3,
 h4,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section {
+  display: block;
 }
 
 * {
   box-sizing: border-box;
 }
-ul,
-ol {
+
+ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -27,7 +32,6 @@ img {
 
 .flix {
   display: flex;
-  justify-content: space-between;
 }
 
 a {
@@ -38,25 +42,24 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
   background-color: #fff;
-  letter-spacing: 0.02em;
 }
 
 /* Header */
 
 .page-header {
-  display: block;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .page-navigation {
   display: flex;
+  gap: 40px;
   align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -94,6 +97,9 @@ body {
 .listing_header {
   display: flex;
   gap: 40px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .menu-item {
@@ -252,6 +258,18 @@ body {
 .title-top-s_three {
   text-align: center;
   margin-bottom: 8px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
 
 .list-item-team {
