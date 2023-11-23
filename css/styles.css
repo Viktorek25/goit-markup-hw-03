@@ -50,6 +50,7 @@ body {
 /* Header */
 
 .page-header {
+  box-sizing: border-box;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -60,6 +61,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-right: auto;
 }
 
 .container {
@@ -100,10 +102,6 @@ body {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.menu-item {
-  margin-right: 40px;
 }
 
 .menu-link {
