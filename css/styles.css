@@ -56,7 +56,6 @@ body {
 
 .page-navigation {
   display: flex;
-  gap: 40px;
   align-items: center;
   list-style-type: none;
   margin: 0;
@@ -133,7 +132,6 @@ body {
 }
 
 .link-contacts {
-  margin-right: 40px;
 }
 
 .menu-contact {
